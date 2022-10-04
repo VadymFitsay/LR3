@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfe056be-8fbb-4dca-a196-8eddc6f0c53b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LR3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/arena/Arena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/BaseDroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/RifleDroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/ShotgunDroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/SniperDroid.java" afterDir="false" />
+    <list default="true" id="cfe056be-8fbb-4dca-a196-8eddc6f0c53b" name="Changes" comment="Printer">
+      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LR3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/arena/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/arena/Arena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/BaseDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/BaseDroid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +41,23 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2EuJOhCLNmprR8eN1ch88wpvKh8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/test1",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/test1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fitsay.droidbattle.Main" />
@@ -91,6 +87,21 @@
       <option name="presentableId" value="Default" />
       <updated>1663439508007</updated>
     </task>
+    <task id="LOCAL-00001" summary="Printer">
+      <created>1664738143222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664738143222</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Printer">
+      <created>1664738163566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664738163566</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,7 +115,25 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Printer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printer" />
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java</url>
+          <line>267</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="Dista(attacker.getX(),attacker.getY(),X,Y)" language="JAVA" />
@@ -117,6 +146,7 @@
         <watch expression="ar1[k].getX()" language="JAVA" />
         <watch expression="Ar[ar1[k].getX()][ar1[k].getY()] == &quot;   &quot;" language="JAVA" />
         <watch expression="ar2[k].getY()" language="JAVA" />
+        <watch expression="Map[ar1[k].getX()][ar1[k].getY()]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

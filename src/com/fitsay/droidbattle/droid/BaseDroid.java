@@ -23,9 +23,6 @@ public class BaseDroid {
     public int getP() {
         return P;
     }
-    public String getName() {
-        return name;
-    }
     public String getIk() {
         return Ik;
     }
@@ -51,7 +48,6 @@ public class BaseDroid {
         }
         return damage;
     }
-
     @Override
     public String toString() {
         return name + " health = " + health;

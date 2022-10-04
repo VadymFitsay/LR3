@@ -111,7 +111,7 @@ public class DroidBattle {
             t = (long)structure.get("Y");
             secondDroid.setY((int)t);
         }
-        if (!(Map[firstDroid.getX()][firstDroid.getY()].equals("   "))) throw new IllegalArgumentException();
+        if (!(Map[secondDroid.getX()][secondDroid.getY()].equals("   "))) throw new IllegalArgumentException();
         Map[secondDroid.getX()][secondDroid.getY()] = secondDroid.Ik;
     }
     private void StartPos(BaseDroid ar1[],BaseDroid ar2[]){

@@ -90,6 +90,7 @@ public class DroidBattle {
             t = (long)structure.get("Y");
             firstDroid.setY((int)t);
         }
+        Map[firstDroid.getX()][firstDroid.getY()] = firstDroid.Ik;
         System.out.println("ST secondDroid");
         if(JSON.Y_N == false){
             System.out.print("X: ");
@@ -110,8 +111,7 @@ public class DroidBattle {
             t = (long)structure.get("Y");
             secondDroid.setY((int)t);
         }
-        if (!Map[x][y].equals("   ")) throw new IllegalArgumentException();
-        Map[firstDroid.getX()][firstDroid.getY()] = firstDroid.Ik;
+        if (!(Map[firstDroid.getX()][firstDroid.getY()].equals("   "))) throw new IllegalArgumentException();
         Map[secondDroid.getX()][secondDroid.getY()] = secondDroid.Ik;
     }
     private void StartPos(BaseDroid ar1[],BaseDroid ar2[]){
@@ -155,6 +155,7 @@ public class DroidBattle {
                 t = (long)innerObj.get("Y");
                 ar1[k].setY((int)t);
             }
+            if (!(Map[ar1[k].getX()][ar1[k].getY()].equals("   "))) throw new IllegalArgumentException();
             Map[ar1[k].getX()][ar1[k].getY()] = ar1[k].Ik;
         }
         System.out.println("ST Team2");
@@ -182,6 +183,7 @@ public class DroidBattle {
                 t = (long)innerObj.get("Y");
                 ar2[k].setY((int)t);
             }
+            if (!(Map[ar2[k].getX()][ar2[k].getY()].equals("   "))) throw new IllegalArgumentException();
             Map[ar2[k].getX()][ar2[k].getY()] = ar2[k].Ik;
         }
         JSON.main.put("ST1",list1);

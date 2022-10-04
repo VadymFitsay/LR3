@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfe056be-8fbb-4dca-a196-8eddc6f0c53b" name="Changes" comment="Printer">
-      <change afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/JSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="cfe056be-8fbb-4dca-a196-8eddc6f0c53b" name="Changes" comment="JSON">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LR3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/arena/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/arena/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/BaseDroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fitsay/droidbattle/droid/BaseDroid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664738163566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JSON">
+      <created>1664877170582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664877170582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JSON">
+      <created>1664877392742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664877392742</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,19 +123,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Printer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printer" />
+    <MESSAGE value="JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java</url>
-          <line>267</line>
+          <line>269</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/fitsay/droidbattle/DroidBattle.java</url>
-          <line>202</line>
+          <line>204</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

@@ -45,9 +45,11 @@ public class DroidBattle {
         do {
             if((round & 1) == 0){t1 = ar1;
             t2 = ar2;
+            printmap();
             System.out.println("Виберіть бійця 1 команди");}
             else{t1 = ar2;
             t2 = ar1;
+            printmap();
             System.out.println("Виберіть бійця 2 команди");}
             int in = xx.nextInt();
             if(!(t1[in-1].isAlive())) throw new IllegalArgumentException();
